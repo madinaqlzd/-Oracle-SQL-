@@ -13,3 +13,4 @@ corpus_id int primary key,
 student_id int,
 teacher_id int
 );
+drop table school;
