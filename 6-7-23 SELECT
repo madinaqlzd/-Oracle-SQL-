@@ -1,0 +1,3 @@
+select employee_id, first_name, salary
+from employees
+group by employee_id, first_name, salary;
