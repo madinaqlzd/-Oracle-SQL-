@@ -1,3 +1,4 @@
 select employee_id, first_name, salary
 from employees
-group by employee_id, first_name, salary;
+group by employee_id, first_name, salary
+fetch first row only;
