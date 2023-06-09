@@ -1,3 +1,7 @@
 insert into student values(1, 'Madina' , 19);
 insert into student values(2, 'Nazrin' , 18);
 insert into student values(3, 'Kamil' , 13);
+
+insert into teacher values(1, 'Elviz' , 40);
+insert into teacher values(2, 'Maya' , 39);
+insert into teacher values(3, 'Naile' , 38);
