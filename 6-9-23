@@ -1,0 +1,15 @@
+create table student(
+student_id int primary key,
+student_name varchar(50),
+student_age varchar(50)
+);
+create table teacher(
+teacher_id int primary key,
+teacher_name varchar(50),
+teacher_age varchar(50)
+);
+create table school(
+corpus_id int primary key,
+student_id int,
+teacher_id int
+);
