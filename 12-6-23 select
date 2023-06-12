@@ -1,0 +1,11 @@
+select e.first_name, e.salary, e.department_id from
+employees e where salary>5000
+group by e.first_name, e.salary, e.department_id
+order by e.salary desc
+fetch first row only;
+
+select e.first_name, e.department_id from
+employees e where e.department_id>25
+group by e.first_name, e.department_id
+order by e.department_id desc
+fetch first row only;
