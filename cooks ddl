@@ -1,0 +1,22 @@
+create table b_customers(
+customer_id int primary key,
+first_name varchar(50) not null,
+last_name varchar(50) not null,
+address varchar(50),
+phone int
+);
+
+create table b_branches(
+branche_id int primary key,
+address varchar(50) not null,
+phone int
+);
+
+create table b_cooks (
+cook_id int primary key,
+cook_name varchar(100) not null,
+branche_id int not null, 
+price number not null,
+CONSTRAINT b_cooks_branch_id_FK FOREIGN KEY (branche_id) REFERENCES b_branches(branch_id),
+CONSTRAINT CHK_price CHECK (price>0)
+);
