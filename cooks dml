@@ -1,0 +1,20 @@
+insert into b_customers values(1,'Madina','Qlzd', 'Sumqayit', 0508752252);
+commit;
+insert into b_customers values(2,'Nazrin','Qlzd', 'Sumqayit', 0106121316);
+commit;
+insert into b_customers values(3,'Kamil','Qlzd', 'Sumqayit', 0702004537);
+commit;
+
+insert into b_branches values(1,'Sumqayit', 0508752222);
+commit;
+insert into b_branches values(2,'Baki', 0508752255);
+commit;
+
+insert into b_cooks values(1,'Bread', 1, 30);
+commit;
+insert into b_cooks values(2,'Sufle', 2, 50);
+commit;
+insert into b_cooks values(3,'Waffle', 2, 60);
+commit;
+insert into b_cooks values(4,'Pie', 1, 110);
+commit;
