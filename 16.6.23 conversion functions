@@ -1,0 +1,5 @@
+select TO_CHAR(1340.64, '9999.9') from dual;
+
+select TO_DATE ('062619', 'MMDDYY') from dual;
+
+select TO_NUMBER( '1342.67', '9999.99') from dual;
