@@ -1,0 +1,7 @@
+select employee_id from employees
+union 
+select department_id from departments;
+
+select employee_id from employees
+union all
+select department_id from employees;
